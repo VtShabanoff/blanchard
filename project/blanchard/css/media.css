@@ -1,0 +1,26 @@
+@media (max-width: 1544px) {
+
+ .btn__form span {
+  display: none;
+
+ }
+
+ .btn__form {
+  width: max-content;
+ }
+}
+
+@media (max-width: 1402px) {
+
+ .nav {
+  order: 3;
+ }
+
+ .btns__header {
+  order: 2;
+ }
+
+ .content__header {
+  justify-content: space-between;
+ }
+}
