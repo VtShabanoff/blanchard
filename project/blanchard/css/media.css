@@ -1,26 +1,651 @@
 @media (max-width: 1544px) {
 
- .btn__form span {
-  display: none;
+  .form__input {
+    margin-bottom: 15px;
+  }
 
- }
-
- .btn__form {
-  width: max-content;
- }
+  .form__btn {
+    width: max-content;
+  }
 }
 
 @media (max-width: 1402px) {
 
- .nav {
-  order: 3;
- }
+  .header {
+    padding: 32px 0 24px 0;
+  }
 
- .btns__header {
-  order: 2;
- }
+  .header__logo {
+    width: 189px;
+    margin-bottom: 22px;
+  }
 
- .content__header {
-  justify-content: space-between;
- }
+  .nav {
+    order: 3;
+  }
+
+  .header__btn-container {
+    padding-top: 8px;
+    order: 2;
+  }
+
+  .header__content {
+    min-height: 92px;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .nav {
+    margin: 0;
+    width: 100%;
+  }
+
+  .nav__list {
+    justify-content: space-between;
+  }
+
+  .hero {
+    min-height: 621px;
+    margin-bottom: 94px;
+    background-image: url(/img/hero-tablet-land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    align-items: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 133px;
+  }
+
+  .hero__content {
+    padding-top: 101px;
+  }
+
+  .hero__wrp-text {
+    width: 72%;
+  }
+
+  .about-us__descr {
+    width: 100%;
+  }
+
+  .gallery {
+    min-height: 642px;
+    background-image: url(/img/gallery-bg-tablet-land.jpg);
+    margin-bottom: 96px;
+  }
+
+  .gallery__title {
+    margin-bottom: 33px;
+  }
+
+  .gallery__content {
+    flex-direction: column;
+  }
+
+  .image__list {
+    justify-content: space-between;
+  }
+
+  .radio {
+    margin-bottom: 30px;
+  }
+
+  .catalog {
+    margin-bottom: 95px;
+  }
+
+  .catalog__descr {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .product__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product__item img {
+    margin-right: 0;
+  }
+
+  .product__img {
+    margin-bottom: 30px;
+  }
+
+  .product__wrp-text {
+    width: 100%;
+    max-width: 924px;
+  }
+
+  .doings-card__item:not(:last-child) {
+    margin-right: 27px;
+  }
+
+  .doings-card__name,
+  .doings-card__event-date {
+    text-align: end;
+    font-weight: 400;
+  }
+
+  .doings-card__event-date {
+    margin-bottom: 4px;
+  }
+
+  .doings-card__wrp-text {
+    padding: 11px 34px 49px 34px;
+  }
+
+  .doings-card__title {
+    margin-bottom: 8px;
+  }
+
+  .doings-card__descr {
+    margin-bottom: 25px;
+  }
+
+  .doings {
+    margin-bottom: 96px;
+  }
+
+  .projects__descr {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .projects__title-second {
+    margin-bottom: 14px;
+  }
+
+  .projects-pairs__item:not(:last-child) {
+    margin-right: 27px;
+  }
+
+  .footer-top-content__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projects {
+    margin-bottom: 78px;
+  }
+
+  .footer-top__title-shourum {
+    margin-bottom: 9px;
+  }
+
+  .footer-top__address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .footer-top {
+    padding: 43px 0 43px 0;
+  }
+
+  .footer-top-content__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .form__input {
+    margin: 0;
+    margin-right: 20px;
+    padding: 15px 23px;
+  }
+
+  .form__btn {
+    padding: 11px 38px;
+  }
+
+  .footer-bottom__link svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 973px) {
+
+  .nav__item:not(:last-child) {
+    margin-right: 44px;
+  }
+
+  .hero__wrp-text {
+    width: 81%;
+  }
+
+  .hero__content {
+    padding-top: 87px;
+  }
+
+  .hero {
+    background-image: url(/img/hero-tablet.jpg);
+  }
+
+  .gallery {
+    min-height: 567px;
+    background-image: url(/img/gallery-bg-tablet.jpg);
+  }
+
+  .image__item:not(:last-child) {
+    margin-right: 35px;
+  }
+
+  .product__span {
+    margin-bottom: 5px;
+  }
+
+  .doings-card__title {
+    width: 82%;
+    margin-bottom: 13px;
+  }
+
+  .doings-card__descr {
+    margin-bottom: 57px;
+  }
+
+  .doings-card__event-date {
+    margin-bottom: 3px;
+  }
+
+  .doings-card__wrp-text {
+    padding: 13px 34px 49px 34px;
+  }
+
+  .doings-card__list {
+    flex-direction: column;
+  }
+
+  .doings-card__item {
+    width: 100%;
+  }
+
+  .doings-card__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .projects__descr {
+    margin-bottom: 28px;
+  }
+
+  .projects__title-second {
+    margin-bottom: 29px;
+  }
+
+  .projects-pairs__item:not(:last-child) {
+    margin-right: 33px;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .form__wrp-input {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+
+  .form__input {
+    width: 323px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .input-name {
+    margin-right: 22px;
+  }
+
+  .form__btn {
+    padding: 13px 28px;
+  }
+
+  .title-socal {
+    margin-bottom: 5px;
+  }
+
+  .footer-top {
+    padding: 43px 0 38px 0;
+  }
+}
+
+@media (max-width: 614px) {
+
+  .container {
+    max-width: 1720px;
+    padding: 0 15px;
+  }
+
+  .header {
+    padding: 16px 0 4px 0;
+  }
+
+  .header__link-logo {
+    margin: 0;
+  }
+
+  .header__logo {
+    width: 96px;
+    margin: 0;
+  }
+
+  .header__content {
+    min-height: 59px;
+  }
+
+  .header__btn-container {
+    padding: 0;
+  }
+
+  .header__btn-search svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header__btn-search::after {
+    content: '';
+    position: absolute;
+    left: -5px;
+    bottom: -2px;
+    top: -6px;
+    right: -5px;
+    z-index: -1;
+    opacity: 0;
+    background-color: var(--color-violet);
+    transition: opacity 0.6s ease-in-out;
+  }
+
+  .nav__link {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .hero {
+    min-height: 308px;
+    background-image: url(/img/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -78px;
+    margin-bottom: 21px;
+  }
+
+  .hero__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 9px;
+  }
+
+  .hero__content {
+    padding-top: 49px;
+  }
+
+  .hero__wrp-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero__descr {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 23px 0 23px;
+    margin-bottom: 37px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 11px 19px;
+  }
+
+  .about-us__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .about-us__descr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 42px;
+  }
+
+  .gallery {
+    min-height: 1206px;
+    background-image: url(/img/gallery-bg-mob.jpg);
+    margin-bottom: 49px;
+  }
+
+  .gallery__title {
+    margin-bottom: 11px;
+    padding-top: 49px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .image__list {
+    flex-direction: column;
+  }
+
+  .image__item:not(:last-child) {
+    margin: 0;
+    margin-bottom: 27px;
+  }
+
+  .img-gallery {
+    width: 100%;
+  }
+
+  .catalog__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 30px;
+  }
+
+  .product__img {
+    margin-bottom: 21px;
+  }
+
+  .product__title {
+    margin-bottom: 7px;
+  }
+
+  .product__span {
+    margin-bottom: 13px;
+  }
+
+  .product__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .product-title-second span {
+    display: block;
+  }
+
+  .catalog {
+    margin-bottom: 50px;
+  }
+
+  .doings__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 13px;
+  }
+
+  .doings-card__wrp-text {
+    padding: 14px 17px 49px 22px;
+  }
+
+  .doings-card__event-date {
+    margin-bottom: 11px;
+  }
+
+  .doings-card__title {
+    width: 96%;
+    margin-bottom: 13px;
+  }
+
+  .doings-card__title {
+    margin-bottom: 6px;
+  }
+
+  .doings-card__descr {
+    margin-bottom: 49px;
+  }
+
+  .doings-card__wrp-btn {
+    padding-left: 6px;
+  }
+
+  .doings-card__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .doings {
+    margin-bottom: 52px;
+  }
+
+  .projects__title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+
+  .projects__descr {
+    margin-bottom: 20px;
+  }
+
+  .projects__descr span {
+    display: block;
+  }
+
+  .projects__title-second {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 11px;
+  }
+
+  .projects-pairs__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projects-pairs__item:not(:last-child) {
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .projects-pairs__item {
+    padding: 28px 63px;
+  }
+
+  .projects {
+    margin-bottom: 4px;
+  }
+
+  .footer-top {
+    border: none;
+  }
+
+  .footer-top__title-shourum {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .footer-top__title-shourum {
+    margin-bottom: 5px;
+  }
+
+  .footer-top-content__item:not(:last-child) {
+    margin: 0;
+  }
+
+  .footer-top__address {
+    margin-bottom: 20px;
+  }
+
+  .form {
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .form__input {
+    width: 100%;
+    padding: 10px 23px;
+    margin-bottom: 20px;
+  }
+
+  .form__btn span {
+    display: none;
+  }
+
+  .form__btn {
+    padding: 9px 33px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  .footer-top__title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .footer-top-social__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-top {
+    padding: 43px 0 49px 0;
+  }
+
+  .footer-botton-content {
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    padding-bottom: 28px;
+  }
+
+  .footer-bottom__link svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-bottom__logo {
+    width: 97px;
+  }
 }
