@@ -211,6 +211,8 @@ p {
   outline: none;
 }
 
+
+
 .header__btn-search {
   position: relative;
   z-index: 1;
@@ -266,7 +268,6 @@ p {
   background-image: url(/img/hero-decstop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -100px;
   align-items: center;
 }
 
@@ -299,6 +300,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  transition: border 0.3s ease-in-out;
 }
 
 .hero__btn:hover::after {
@@ -468,6 +470,10 @@ p {
 
 .radio__label input:checked~span::before {
   opacity: 1;
+}
+
+.radio__input:focus+ span {
+  color: var(--color-light-violet);
 }
 
 .image__item:not(:last-child) {
