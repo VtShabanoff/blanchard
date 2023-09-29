@@ -493,6 +493,7 @@ p {
 
 .product__item {
   display: flex;
+  gap: 50px;
 }
 
 @-moz-document url-prefix() {
@@ -506,7 +507,7 @@ p {
 }
 
 .product__item img {
-  margin-right: 50px;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -788,7 +789,7 @@ p {
   outline: none;
 }
 
-.ic-social {
+.footer-top-social__link svg {
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -840,7 +841,7 @@ p {
   outline: none;
 }
 
-.ic-social-footer__bottom path {
+.ic-social-footer__bottom svg path{
   transition: fill 0.3s ease-in-out;
 }
 
