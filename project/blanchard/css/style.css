@@ -290,7 +290,6 @@ p {
 }
 
 .hero__btn {
-  position: relative;
   padding: 22px 35px;
   margin-bottom: 80px;
   background-color: var(--color-violet);
@@ -300,51 +299,27 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  transition: border 0.3s ease-in-out;
+  
+  outline-color: transparent;
+  transition: outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
 }
 
-.hero__btn:hover::after {
-  outline: none;
-  content: "";
-  position: absolute;
-  border: 3px solid var(--color-so-light-violet);
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  right: -2px;
-  border-radius: inherit;
-  transition: border 0.3s ease-in-out;
+.hero__btn:hover{
+  outline: 3px solid var(--color-light-violet);
 }
 
-.hero__btn:focus::after {
-  content: "";
-  position: absolute;
-  outline: none;
-  border: 2px solid var(--color-violet);
-  top: -4px;
-  bottom: -4px;
-  left: -4px;
-  right: -4px;
-  border-radius: inherit;
-  transition: border 0.3s ease-in-out;
-}
-
-.hero__btn:active::after {
-  outline: none;
-  content: "";
-  position: absolute;
-  border: 3px solid var(--color-so-light-violet);
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  right: -2px;
-  border-radius: inherit;
-  transition: border 0.2s ease-in-out;
+.hero__btn:focus{
+  outline: 2px solid var(--color-so-light-violet);
+  outline-offset: 3px;
 }
 
 .hero__btn:active {
   background-color: var(--color-dark-violet);
+  outline: 3px solid var(--color-light-violet);
+  outline-offset: 0;
 }
+
+
 
 .hero__content {
   padding-top: 146px;
@@ -732,45 +707,25 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-
-.form__btn:focus-visible {
-  outline: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out, outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out, outline-color 0.3s ease-in-out;
 }
 
 .label-btn {
   position: relative;
 }
 
-.form__btn:focus::after {
-  content: "";
-  position: absolute;
-  outline: none;
-  border: 2px solid var(--color-violet);
-  top: -19px;
-  bottom: -17px;
-  left: -2px;
-  right: -2px;
-  border-radius: inherit;
-  border: 2px solid var(--color-light-violet);
-  transition: border 0.3s ease-in-out;
+.form__btn:focus{
+  outline: 2px solid var(--color-violet);
+  outline-offset: 3px;
 }
 
-.form__btn:active::after {
-  content: '';
-  position: absolute;
+.form__btn:focus-visible{
   outline: none;
-  border: 3px solid var(--color-so-light-violet);
-  border-radius: inherit;
-  top: -18px;
-  bottom: -16px;
-  left: 0;
-  right: 0;
-  transition: border 0.3s ease-in-out;
 }
 
-.form__btn:active {
+.form__btn:active{
+  outline-offset: -2px;
+  outline-color: var(--color-so-light-violet);
   background-color: var(--color-dark-violet);
   color: var(--color-white);
 }
@@ -841,7 +796,7 @@ p {
   outline: none;
 }
 
-.ic-social-footer__bottom svg path{
+.footer-bottom__link svg path{
   transition: fill 0.3s ease-in-out;
 }
 
