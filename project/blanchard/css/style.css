@@ -265,7 +265,7 @@ p {
 .hero {
   min-height: 700px;
   margin-bottom: 95px;
-  background-image: url(/img/hero-decstop.jpg);
+  background-image: url(../img/hero-decstop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -299,7 +299,7 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  
+
   outline-color: transparent;
   transition: outline 0.3s ease-in-out, outline-offset 0.3s ease-in-out;
 }
@@ -340,7 +340,7 @@ p {
 
 .gallery {
   min-height: 595px;
-  background-image: url(/img/gallery-bg-decstop.jpg);
+  background-image: url(../img/gallery-bg-decstop.jpg);
   margin-bottom: 97px;
 }
 
